@@ -1,6 +1,7 @@
 ﻿using UnityEditor;
 using RxToolKit.CoreLibrary.Editor;
 using RxToolKit.CoreLibrary.NativePlugins;
+using RxToolKit.CoreLibrary;
 
 namespace RX.EssentialKit.Editor
 {
@@ -27,9 +28,22 @@ namespace RX.EssentialKit.Editor
             {
                 if (s_defaultSettings == null)
                 {
+                    var instance = LoadDefaultSettingsObject(throwError: false);
+                    if (null == instance)
+                    {
+                        instance = CreateDefaultSettingsObject();
+                    }
+
+                    s_defaultSettings = instance;
                 }
 
                 return s_defaultSettings;
+            }
+            set
+            {
+                Assert.IsPropertyNotNull(value, nameof(value));
+                // set new value
+                s_defaultSettings = value;
             }
         }
 
@@ -48,8 +62,50 @@ namespace RX.EssentialKit.Editor
 
         #endregion
 
+        #region Constructors
+
+        static EssentialKitSettingsEditorUtility()
+        {
+            AddGlobalDefines();
+        }
+
+        #endregion
 
         #region Static methods
+
+        public static void ShowSettingsNotFoundErrorDialog()
+        {
+            EditorUtility.DisplayDialog(
+                title: "Error",
+                message:
+                "Native plugins is not configured. Please select plugin settings file from menu and configure it according to your preference.",
+                ok: "Ok");
+        }
+
+        public static bool TryGetDefaultSettings(out EssentialKitSettings defaultSettings)
+        {
+            // Set default value
+            defaultSettings = null;
+
+            // Set reference if the object exists
+            if (SettingsExists)
+            {
+                defaultSettings = DefaultSettings;
+                return true;
+            }
+
+            return false;
+        }
+
+        public static void AddGlobalDefines()
+        {
+            ScriptingDefinesManager.AddDefine("ENABLE_VOXELBUSTERS_ESSENTIAL_KIT");
+        }
+
+        public static void RemoveGlobalDefines()
+        {
+            ScriptingDefinesManager.RemoveDefine("ENABLE_VOXELBUSTERS_ESSENTIAL_KIT");
+        }
 
         public static void OpenInProjectSettings()
         {

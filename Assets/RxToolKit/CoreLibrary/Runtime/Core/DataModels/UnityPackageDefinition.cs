@@ -70,7 +70,7 @@ namespace RxToolKit.CoreLibrary
             // Derived properties
             MutableResourcesRelativePath = mutableResourcesPath.Replace("Assets/Resources", "").TrimStart('/');
             m_persistentDataRelativePath =
-                persistentDataRelativePath ?? $"VoxelBusters/{string.Join("", displayName.Split(' '))}";
+                persistentDataRelativePath ?? $"RxToolKit/{string.Join("", displayName.Split(' '))}";
         }
 
         #endregion

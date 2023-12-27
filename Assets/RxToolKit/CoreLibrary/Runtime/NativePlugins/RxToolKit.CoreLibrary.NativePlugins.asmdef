@@ -1,0 +1,16 @@
+{
+    "name": "RxToolKit.CoreLibrary.NativePlugins",
+    "rootNamespace": "",
+    "references": [
+        "RxToolKit.CoreLibrary"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

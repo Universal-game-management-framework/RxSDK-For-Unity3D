@@ -30,7 +30,9 @@ namespace RxToolKit.CoreLibrary
 
         #region Private methods
 
-        protected virtual void UpdateLoggerSettings() { }
+        protected virtual void UpdateLoggerSettings()
+        {
+        }
 
         internal virtual void OnEditorReload()
         {

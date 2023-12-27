@@ -1,0 +1,21 @@
+{
+    "name": "RxToolKit.EssentialKit.Editor",
+    "rootNamespace": "",
+    "references": [
+        "RxToolKit.CoreLibrary",
+        "RxToolKit.CoreLibrary.Editor",
+        "RxToolKit.CoreLibrary.NativePlugins",
+        "RxToolKit.EssentialKit"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

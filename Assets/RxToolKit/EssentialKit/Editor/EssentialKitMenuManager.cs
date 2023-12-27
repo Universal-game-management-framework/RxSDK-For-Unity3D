@@ -17,6 +17,7 @@ namespace RX.EssentialKit.Editor
         [MenuItem(sMenuItemPath + "/Open Settings")]
         public static void OpenSettings()
         {
+            EssentialKitSettingsEditorUtility.OpenInProjectSettings();
         }
 
         [MenuItem(sMenuItemPath + "/Uninstall")]

@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +8,7 @@ namespace RxToolKit.CoreLibrary
     {
         #region Static fields
 
-        private     static      UnityPackageDefinition      s_package;
+        private static UnityPackageDefinition s_package;
 
         #endregion
 
@@ -20,10 +19,10 @@ namespace RxToolKit.CoreLibrary
             () =>
             {
                 return new UnityPackageDefinition(
-                    name: "com.voxelbusters.corelibrary",
+                    name: "com.rxtoolkit.corelibrary",
                     displayName: "Core Library",
                     version: "1.0.0",
-                    defaultInstallPath: $"Assets/Plugins/VoxelBusters/CoreLibrary");
+                    defaultInstallPath: $"Assets/Plugins/RxToolKit/CoreLibrary");
             });
 
         public static string Name => Package.Name;

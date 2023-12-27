@@ -1,0 +1,17 @@
+{
+    "name": "RxToolKit.EssentialKit",
+    "rootNamespace": "",
+    "references": [
+        "RxToolKit.CoreLibrary",
+        "RxToolKit.CoreLibrary.NativePlugins"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -27,8 +27,8 @@ namespace RX.EssentialKit
             ref s_package,
             () =>
             {
-                return new UnityPackageDefinition(name: "com.RxToolKit.essentialkit",
-                    displayName: "RxSDK Kit",
+                return new UnityPackageDefinition(name: "com.rxtoolkit.essentialkit",
+                    displayName: "Essential Kit",
                     version: "1.1.0",
                     defaultInstallPath: $"Assets/Plugins/RxToolKit/EssentialKit",
                     dependencies: CoreLibrarySettings.Package);
