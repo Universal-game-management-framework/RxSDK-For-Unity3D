@@ -794,7 +794,11 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: ENABLE_VESTABUSTERS_ESSENTIAL_KIT
+    Standalone: ENABLE_VESTABUSTERS_ESSENTIAL_KIT
+    WebGL: ENABLE_VESTABUSTERS_ESSENTIAL_KIT
+    iPhone: ENABLE_VESTABUSTERS_ESSENTIAL_KIT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

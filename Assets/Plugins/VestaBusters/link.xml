@@ -1,16 +1,18 @@
 ﻿<linker>
+  <assembly fullname="VestaBusters.EssentialKit">
+    <type fullname="VestaBusters.EssentialKit.AddressBookCore.NullAddressBookInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.CloudServicesCore.NullCloudServicesInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.GameServicesCore.NullGameServicesInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.NotificationServicesCore.NullNotificationCenterInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.SharingServicesCore.NullSharingInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.WebViewCore.NullNativeWebView" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.ExtrasCore.NullNativeUtilityInterface" preserve="all" />
+    <type fullname="VestaBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface" preserve="all" />
+  </assembly>
   <assembly fullname="VestaBusters.EssentialKit.AndroidModule">
-    <namespace fullname="VestaBusters.EssentialKit.AddressBookCore.Android" preserve="all" />
     <namespace fullname="VestaBusters.EssentialKit.BillingServicesCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.CloudServicesCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.GameServicesCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.MediaServicesCore.Android" preserve="all" />
     <namespace fullname="VestaBusters.EssentialKit.NativeUICore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.NetworkServicesCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.NotificationServicesCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.SharingServicesCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.WebViewCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.ExtrasCore.Android" preserve="all" />
-    <namespace fullname="VestaBusters.EssentialKit.DeepLinkServicesCore.Android" preserve="all" />
   </assembly>
 </linker>
