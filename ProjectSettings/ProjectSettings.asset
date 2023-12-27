@@ -798,6 +798,7 @@ PlayerSettings:
     Android: ENABLE_VOXELBUSTERS_ESSENTIAL_KIT
     Standalone: ENABLE_VOXELBUSTERS_ESSENTIAL_KIT
     WebGL: ENABLE_VOXELBUSTERS_ESSENTIAL_KIT
+    Windows Store Apps: ENABLE_VOXELBUSTERS_ESSENTIAL_KIT
     iPhone: ENABLE_VOXELBUSTERS_ESSENTIAL_KIT
   additionalCompilerArguments: {}
   platformArchitecture: {}
