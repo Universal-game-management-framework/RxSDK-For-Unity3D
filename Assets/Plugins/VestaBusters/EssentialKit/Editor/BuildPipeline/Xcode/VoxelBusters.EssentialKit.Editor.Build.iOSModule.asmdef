@@ -1,0 +1,23 @@
+{
+    "name": "VestaBusters.EssentialKit.Editor.Build.iOSModule",
+    "references": [
+        "VestaBusters.CoreLibrary",
+        "VestaBusters.CoreLibrary.Editor",
+        "VestaBusters.CoreLibrary.NativePlugins",
+        "VestaBusters.CoreLibrary.Editor.NativePlugins",
+        "VestaBusters.EssentialKit",
+        "VestaBusters.EssentialKit.iOSModule",
+        "VestaBusters.EssentialKit.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

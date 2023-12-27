@@ -1,0 +1,12 @@
+﻿<registries>
+  <registry name="npmjs"
+            url="https://registry.npmjs.org/"
+            termsOfService="https://registry.npmjs.org/terms"
+            privacyPolicy="https://registry.npmjs.org/privacy">
+    <scopes>
+      <scope>com.vestabusters.corelibrary</scope>
+      <scope>com.vestabusters.corelibrary.nativeplugins</scope>
+      <scope>com.vestabusters.parser</scope>
+    </scopes>
+  </registry>
+</registries>

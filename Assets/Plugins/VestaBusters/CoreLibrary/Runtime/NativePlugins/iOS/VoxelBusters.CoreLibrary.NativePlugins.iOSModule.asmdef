@@ -1,0 +1,19 @@
+{
+    "name": "VestaBusters.CoreLibrary.NativePlugins.iOSModule",
+    "references": [
+        "VestaBusters.CoreLibrary",
+        "VestaBusters.CoreLibrary.NativePlugins"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor",
+        "iOS",
+        "tvOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

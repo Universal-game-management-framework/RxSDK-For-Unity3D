@@ -1,0 +1,21 @@
+{
+    "name": "VestaBusters.EssentialKit.Editor",
+    "references": [
+        "VestaBusters.CoreLibrary",
+        "VestaBusters.CoreLibrary.Editor",
+        "VestaBusters.CoreLibrary.NativePlugins",
+        "VestaBusters.CoreLibrary.Editor.NativePlugins",
+        "VestaBusters.EssentialKit",
+        "VestaBusters.EssentialKit.SimulatorModule"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

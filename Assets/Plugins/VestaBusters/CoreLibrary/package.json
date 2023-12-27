@@ -1,0 +1,17 @@
+{
+    "name": "com.vestabusters.corelibrary",
+    "displayName": "Core Library",
+    "version": "1.0.7",
+    "unity": "2018.3",
+    "description": "Core Library is a foundation library that provides useful datatypes, design patterns and utility methods.",
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+    },
+    "keywords": [ "vestabusters", "unity", "core-library" ],
+    "license": "MIT",
+    "author": {
+        "name": "Voxel Busters",
+        "email": "support@vestabusters.com",
+        "url": "https://www.vestabusters.com"
+    }
+}

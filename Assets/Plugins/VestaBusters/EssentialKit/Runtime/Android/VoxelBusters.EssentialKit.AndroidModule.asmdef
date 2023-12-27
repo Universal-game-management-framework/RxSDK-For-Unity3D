@@ -1,0 +1,20 @@
+{
+    "name": "VestaBusters.EssentialKit.AndroidModule",
+    "references": [
+        "VestaBusters.CoreLibrary",
+        "VestaBusters.CoreLibrary.NativePlugins",
+        "VestaBusters.EssentialKit",
+        "VestaBusters.CoreLibrary.NativePlugins.AndroidModule"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
