@@ -1,0 +1,17 @@
+{
+    "name": "VestaBusters.EssentialKit",
+    "rootNamespace": "",
+    "references": [
+        "VestaBusters.CoreLibrary",
+        "VestaBusters.CoreLibrary.NativePlugins"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
