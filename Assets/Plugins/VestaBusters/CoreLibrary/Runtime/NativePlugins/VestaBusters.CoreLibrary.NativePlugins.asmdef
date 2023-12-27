@@ -1,15 +1,16 @@
 {
-    "name": "VestaBusters.EssentialKit",
+    "name": "VestaBusters.CoreLibrary.NativePlugins",
+    "rootNamespace": "",
     "references": [
-        "VestaBusters.CoreLibrary",
-        "VestaBusters.CoreLibrary.NativePlugins"
+        "VestaBusters.CoreLibrary"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
